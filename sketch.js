@@ -68,15 +68,15 @@ function preload(){
   	//var url ='asset/animeQuote.json';
   	// info = loadJSON('/Users/RianIshikawa/Desktop/CT_system/fianldemo/two/asset/animeQuote.json');
   	//info = loadJSON('https://github.com/kyoheria/AnimeQuoteJason/blob/master/animeQuote.json');
-  	var xmlhttp = new XMLHttpRequest();
-	xmlhttp.onreadystatechange = function() {
-  	if (this.readyState == 4 && this.status == 200) {
-    	var myObj = JSON.parse(this.responseText);
-    	document.getElementById("demo").innerHTML = myObj.name;
-  	}
-};
-xmlhttp.open("GET", "asset/animeQuote.json", true);
-xmlhttp.send();
+//   	var xmlhttp = new XMLHttpRequest();
+// 	xmlhttp.onreadystatechange = function() {
+//   	if (this.readyState == 4 && this.status == 200) {
+//     	var myObj = JSON.parse(this.responseText);
+//     	document.getElementById("demo").innerHTML = myObj.name;
+//   	}
+// };
+// xmlhttp.open("GET", "asset/animeQuote.json", true);
+// xmlhttp.send();
 }
 
 function setup() {
