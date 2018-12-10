@@ -61,9 +61,9 @@ function preload(){
 	hero1 = loadImage('asset/hero1.png');
   	hero2 = loadImage('asset/hero2.png');
   	hero3 = loadImage('asset/hero3.png');
-  	bad1 = loadImage('asset/bad1.png');
+  	bad1 = loadImage('asset/bad1.PNG');
   	bad2 = loadImage('asset/bad2.png');
-  	bad3 = loadImage('asset/bad3.png');
+  	bad3 = loadImage('asset/bad3.PNG');
 
   	//var url ='asset/animeQuote.json';
   	// info = loadJSON('/Users/RianIshikawa/Desktop/CT_system/fianldemo/two/asset/animeQuote.json');
